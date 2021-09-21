@@ -1,0 +1,87 @@
+.topFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: black;
+    padding: 30px;
+    padding-top: 5px;
+    border-bottom: 1px solid #44413f;
+    flex-wrap: wrap;
+    font-size: 17px;
+}
+
+.topHeading {
+    color: #80807d;
+    font-weight: 600;
+    background-color: black;
+    margin: 0px;
+    padding-top: 60px;
+    font-size: 15px;
+}
+
+.appImg {
+  display: block;
+  padding-top: 60px; 
+}
+
+.heading {
+  color: #80807d;
+  font-weight: 600;
+  background-color: black;
+  padding-left: 30px;
+  margin: 0px;
+  padding-top: 60px;
+  font-size: 15px;
+}
+
+.actionflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: black;
+  padding: 30px;
+  padding-top: 5px;
+  border-bottom: 1px solid #44413f;
+  flex-wrap: wrap;
+  font-size: 17px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+  padding: 0px;
+}
+
+li {
+  list-style-type: none;
+  color: white;
+  line-height: 35px;
+}
+
+/* city */
+.minwidth {
+  min-width: 210px;
+}
+/* footer */
+.footerflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 20px 30px;
+}
+.icon {
+  width: 24px;
+  margin-right: 28px;
+}
+.footerflex p {
+  margin-top: 15px;
+}
+
+.swiggyImg {
+    width: 142px;
+    margin-right: 0px;
+}

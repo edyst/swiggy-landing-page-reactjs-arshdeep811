@@ -1,0 +1,42 @@
+.flexContainer {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 570px;
+}
+
+.heading {
+    font-size: 40px;
+    color: #282C3F;
+    font-weight: 600;
+    width: 300px;
+    margin: 0;
+    line-height: 1;
+    letter-spacing: 0;
+}
+
+.subHeading {
+    font-size: 20px;
+    color: #7e808c;
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.item1 {
+   padding-right: 50px;
+}
+
+.item2 {
+   align-self: flex-start;
+}
+
+.item3 {
+   align-self: flex-end;
+   position: relative;
+   margin-left: -60px;
+   margin-right: -4S0px;
+}
